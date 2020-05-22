@@ -31,8 +31,8 @@ RSpec.describe "when I visit a movie's show page" do
     click_on "Submit"
 
     expect(current_path).to eq("/movies/#{@movie1.id}")
-    save_and_open_page
     expect(page).to have_content(@actor4.name)
+    save_and_open_page
   end
 end
 
