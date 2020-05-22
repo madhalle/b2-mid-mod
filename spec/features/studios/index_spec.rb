@@ -14,10 +14,3 @@ RSpec.describe "when a user visits the studio index page" do
   end
 
 end
-
-#
-# Story 1
-# As a visitor,
-# When I visit the studio index page
-# I see a list of all of the movie studios
-# And underneath each studio, I see the names of all of its movies.

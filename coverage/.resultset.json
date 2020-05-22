@@ -320,6 +320,26 @@
           null
         ]
       },
+      "/Users/turing/Desktop/Turing/Mod2/mid_mods/b2-mid-mod/spec/features/studios/index_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/turing/Desktop/Turing/Mod2/mid_mods/b2-mid-mod/spec/models/actor_spec.rb": {
         "lines": [
           1,
@@ -427,6 +447,6 @@
         ]
       }
     },
-    "timestamp": 1590161728
+    "timestamp": 1590162147
   }
 }
