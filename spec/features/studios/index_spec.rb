@@ -9,8 +9,8 @@ RSpec.describe "when a user visits the studio index page" do
     visit "/studios"
 
     expect(page).to have_content(@studio1.name)
-    expect(page).to have_content(@studio1.movies.first)
-    expect(page).to have_content(@studio1.movies.last)
+    expect(page).to have_content(@studio1.movies.first.title)
+    expect(page).to have_content(@studio1.movies.last.title)
   end
 
 end
