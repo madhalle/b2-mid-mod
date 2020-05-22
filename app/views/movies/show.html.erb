@@ -5,7 +5,7 @@
 
 <h2>Actors</h2>
 
-<%@movie.actors.order(age: :desc).each do |actor| %>
+<%@movie.actors.order(:age).each do |actor| %>
   <p> <%=actor.name %> </p>
 <% end %>
 <p> Average Age of Actors: <%=@movie.actors.average_age%> </p>
